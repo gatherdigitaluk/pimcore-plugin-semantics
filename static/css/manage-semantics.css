@@ -1,0 +1,46 @@
+
+textarea, input { outline: none; }
+
+.x-fieldset {
+    font: normal 11px arial,tahoma,verdana,helvetica;
+    margin: 0;
+    border: 1px solid #CCCCCC;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: block;
+    overflow: hidden;
+}
+
+.x-form-text {
+    font: normal 11px arial,tahoma,verdana,helvetica;
+    background-color: #fff;
+    background-image: url('/pimcore/static/js/lib/ext/resources/images/default/form/text-bg.gif');
+    border-color: #C1C1C1;
+    background-repeat: repeat-x;
+}
+
+.x-fieldset legend {
+    font: bold 11px tahoma, arial, helvetica, sans-serif;
+    color: #777777;
+}
+
+.save-tags-button {
+    font: normal 11px arial,tahoma,verdana,helvetica;
+    display: block;
+    margin-top: 10px;
+    font-size: 11px;
+    background: #f2f3f4 url('/pimcore/static/img/icon/tick.png') left 10px center no-repeat !important;
+    padding: 5px 5px 5px 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.save-tag-button:active,
+.save-tag-button:focus
+{
+    background-color: #d2d3d4 !important;
+}
+
+.tag-editor {
+    resize:none;
+}
