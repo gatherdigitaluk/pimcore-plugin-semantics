@@ -16,14 +16,14 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <script src="//code.jquery.com/jquery-1.12.2.min.js" integrity="sha256-lZFHibXzMHo3GGeehn1hudTAP3Sc0uKXBXAzHX1sjtk=" crossorigin="anonymous"></script>
-    <script src="http://ajaxorg.github.io/ace-builds/src-min-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+    <script src="//ajaxorg.github.io/ace-builds/src-min-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
     <!-- <script src="//cdn.jsdelivr.net/g/es6-promise@1.0.0"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jsonld/0.3.15/jsonld.js"></script> -->
     <link rel="stylesheet" href="/plugins/Semantics/static/css/manage-semantics.css?<?= time(); ?>">
     <style type="text/css" media="screen">
         #editor {
             height: 300px;
-            width: 600px;
+            width: 800px;
             font-family:monospace;
         }
         .ace_editor, .ace_content {
